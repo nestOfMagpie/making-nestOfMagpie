@@ -1,0 +1,104 @@
+*
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/*Background*/
+.BG
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Clock*/
+#clock
+{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    padding-bottom: 5pt;
+    text-align: center;
+    color: white;
+    font-size: 100pt;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/*What's your name?*/
+#greeting
+{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10pt;
+    padding-bottom: 36pt;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    font-weight: 400;
+}
+/*loginForm*/
+#greeting #loginForm
+{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:15pt;
+}
+#loginForm #nameText
+{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-color: white;
+    font-size: 28pt;
+    font-weight: 550;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#loginForm input:focus
+{
+    outline: none;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#greeting-name{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48pt;
+    color: white;
+   
+}
+
+/*Quotes and Autors*/
+#quote
+{
+    position: absolute;
+    bottom: 3.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
